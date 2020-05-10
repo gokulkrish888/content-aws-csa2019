@@ -1,7 +1,7 @@
 FROM centos:latest
-MAINTAINER FelineInc
+MAINTAINER Gokul Inc
 RUN yum -y install httpd
-COPY index.html containercat.jpg /var/www/html/
+COPY index.html LeBron-James-could-choose-to-join-the-Lakers-in-free-agency-1384778.jpg /var/www/html/
 ENTRYPOINT ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
 

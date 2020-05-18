@@ -5,7 +5,7 @@ cd /var/www/html
 
 
 
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/Lamar-Jackson-Baltimore-Ravens-1040x572.jpg
+wget https://raw.githubusercontent.com/gokulkrish888/content-aws-csa2019/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/Lamar-Jackson-Baltimore-Ravens-1040x572.jpg
 mv Lamar-Jackson-Baltimore-Ravens-1040x572.jpg goat.jpg
 wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess

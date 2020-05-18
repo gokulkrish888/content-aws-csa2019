@@ -9,7 +9,7 @@ mv /var/www/html/htaccess /var/www/html/.htaccess
 
 
 mkdir /var/www/html/goat
-cp /var/www/html/lebron2.jpg /var/www/html/goat
+cp /var/www/html/goat.jpg /var/www/html/goat
 cp /var/www/html/index.php /var/www/html/goat
 cp /var/www/html/.htaccess /var/www/html/goat
 

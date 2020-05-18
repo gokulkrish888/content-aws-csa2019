@@ -2,16 +2,16 @@
 yum install -y httpd php git
 
 cd /var/www/html
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/cat3.jpg
-mv cat3.jpg cat.jpg
+wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/federer.jpg
+mv federer.jpg goat.jpg
 wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
 
-mkdir /var/www/html/cat
-cp /var/www/html/cat.jpg /var/www/html/cat
-cp /var/www/html/index.php /var/www/html/cat
-cp /var/www/html/.htaccess /var/www/html/cat
+mkdir /var/www/html/goat
+cp /var/www/html/goat.jpg /var/www/html/goat
+cp /var/www/html/index.php /var/www/html/goat
+cp /var/www/html/.htaccess /var/www/html/goat
 
 sudo systemctl start httpd
 sudo systemctl enable httpd

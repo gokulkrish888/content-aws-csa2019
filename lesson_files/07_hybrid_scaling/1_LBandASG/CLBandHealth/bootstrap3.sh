@@ -5,8 +5,8 @@ cd /var/www/html
 
 
 
-wget https://raw.githubusercontent.com/gokulkrish888/content-aws-csa2019/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/federer.jpg
-mv federer.jpg goat.jpg
+wget https://raw.githubusercontent.com/gokulkrish888/content-aws-csa2019/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/federer.jpeg
+mv federer.jpeg goat.jpg
 wget https://raw.githubusercontent.com/gokulkrish888/content-aws-csa2019/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess
 

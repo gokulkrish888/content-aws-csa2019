@@ -2,11 +2,13 @@
 yum install -y httpd php git
 
 cd /var/www/html
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/federer.jpg
-mv federer.jpg goat.jpg
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
-mv /var/www/html/htaccess /var/www/html/.htaccess
 
+
+
+wget https://raw.githubusercontent.com/gokulkrish888/content-aws-csa2019/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/federer.jpg
+mv federer.jpg goat.jpg
+wget https://raw.githubusercontent.com/gokulkrish888/content-aws-csa2019/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
+mv /var/www/html/htaccess /var/www/html/.htaccess
 
 mkdir /var/www/html/goat
 cp /var/www/html/goat.jpg /var/www/html/goat
